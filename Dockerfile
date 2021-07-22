@@ -8,7 +8,7 @@ COPY start.sh /
 ENV INTERFACE wg0
 ENV LISTEN_PORT 51820
 
-WORKDIR /WireGuard-0.0.20190702/src
+WORKDIR /
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 
